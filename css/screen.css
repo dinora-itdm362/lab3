@@ -207,13 +207,6 @@ label {
 body {
     background-color: #484848;
     align-content: center;
-  }
-
-body, input, label {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  }
-  
-  body {
     font-family: 'Patrick Hand', cursive;
     font-family: 'Teko', sans-serif;
   }
