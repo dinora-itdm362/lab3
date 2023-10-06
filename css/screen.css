@@ -232,6 +232,7 @@ html, body {
   textarea {
     background-color: #a9a6a6;
     border: 2px solid transparent;
+    border-style: solid;
     border-image: linear-gradient(to right, #1c1b1b, #888989);
     border-image-slice: 1;
     border-radius: 4px;
