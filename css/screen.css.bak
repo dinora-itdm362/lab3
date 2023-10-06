@@ -204,6 +204,10 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+body {
+  background-color: #333333;
+  align-content: center;
+}
 
 /* ===== STATE STYLES ======= */
 
