@@ -219,7 +219,13 @@ html, body {
     flex-direction: column;
     min-height: 100vh;
   }
-  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   input[type="text"],
   input[type="email"],
   input[type="password"],
@@ -230,12 +236,9 @@ html, body {
     padding: 10px;
     width: 100%;
     margin-bottom: 15px;
+    max-width: 300px;
   }
-  label {
-    font-family: 'Chakra Petch';
-    color: rgb(174, 172, 172);
-  }
-  
+
   li#input-age-verification {
     display: flex;
     align-items: center;
