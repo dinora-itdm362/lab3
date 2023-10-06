@@ -214,7 +214,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Teko', sans-serif;
     background-color: #f0f0f0; 
     flex-direction: column;
     min-height: 100vh;
@@ -242,11 +243,10 @@ html, body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Patrick Hand', cursive;
   }
   
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-  
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Teko&display=swap');
   
   
 /* ===== STATE STYLES ======= */
