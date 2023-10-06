@@ -234,6 +234,7 @@ html, body {
   label {
     font-family: 'Chakra Petch';
     color: rgb(174, 172, 172);
+    text-align: center; 
   }
   button {
     background-color: #272727;
