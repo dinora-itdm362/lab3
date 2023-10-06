@@ -231,7 +231,10 @@ html, body {
     width: 100%;
     margin-bottom: 15px;
   }
-  
+  label {
+    font-family: 'Chakra Petch';
+    color: rgb(174, 172, 172);
+  }
   button {
     background-color: #272727;
     color: #fff9f9;
