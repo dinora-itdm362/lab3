@@ -250,7 +250,7 @@ html, body {
     bottom: 0;
     left: 0;
     border: 2px solid transparent;
-    background-image: linear-gradient(to right, #1c1b1b, #888989); 
+    background-image: linear-gradient(to right, #6f6969, #adb0b0); 
     border-radius: 4px;
     pointer-events: none; 
   }
