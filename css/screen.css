@@ -204,13 +204,21 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
-body {
-    background-color: #484848;
-    align-content: center;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Teko', sans-serif;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
   
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; 
+    flex-direction: column;
+    min-height: 100vh;
+  }
   
   input[type="text"],
   input[type="email"],
@@ -219,7 +227,7 @@ body {
     background-color: #f0f0f0; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
-    padding: 10px;
+    padding: 10px; 
     width: 100%; 
     margin-bottom: 15px; 
   }
@@ -232,6 +240,12 @@ body {
     padding: 10px 20px;
     cursor: pointer;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
   
   
   
